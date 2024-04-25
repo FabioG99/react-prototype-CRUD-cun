@@ -29,9 +29,6 @@ export const LoginPage = () => {
     console.log(values)
   }
 
-  console.log(Object.keys(errors).length)
-  console.log(errors)
-
   return (
     <div className="login-page__container">
       <div className="login-page__form__container">
